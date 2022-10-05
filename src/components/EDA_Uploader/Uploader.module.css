@@ -1,0 +1,26 @@
+.uploaddiv{
+    background-color: var(--purple-100);
+    font-family: 'Times New Roman', Times, serif;
+   
+   
+}
+
+.uploaddivtit{
+    margin-bottom: 1%;
+    /* background-color: aquamarine; */
+    /* background-color: bisque; */
+    background-color: var(--purple-500);
+   
+}
+
+.uploadform{
+    width:max-content; 
+    border-left: 5px solid red; 
+   
+}
+
+.formcarder{
+    /* background-color: var(--purple-100); */
+    /* background-color: aquamarine; */
+    background-color: bisque;
+}

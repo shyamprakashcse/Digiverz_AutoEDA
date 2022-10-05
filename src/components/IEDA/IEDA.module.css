@@ -1,0 +1,74 @@
+.IDEA{
+    margin:1%;  
+    font-family:'Times New Roman', Times, serif;
+}
+
+.descanalysis{
+  margin:2%; 
+}
+
+.descrep{
+    margin:2%; 
+}
+
+.histdiv{
+    /* border:2px solid black;  */
+    margin-top:2%;
+    margin-bottom: 3%; 
+}
+
+.colbtn{
+    border:1px solid white; 
+    background-color: #BBDEFB;
+}
+
+.colheaders{
+    background-color: var(--blue-100);
+    margin:3%; 
+}
+
+.histdiv button{
+    margin-left: 70%;
+}
+
+.graphImg{
+    margin-left:30%;
+    margin-top: 2%; 
+   background-color: var(--red-100);
+   width:500px; 
+    height:500px; 
+    border:2px solid black; 
+}
+
+.graphImg img{
+    width:100%;
+  
+   
+}
+
+.drop{
+    margin-right: 10%;
+}
+
+.box{
+    width:60%;
+    height:550px;
+    margin:2%; 
+    margin-left:20%; 
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.roler{
+  width:100%; 
+  height:450px; 
+  overflow: scroll;
+  
+  border:2px solid black;
+
+}
+
+.contentdiv{
+    background-color: var(--purple-600);
+}
+

@@ -1,0 +1,140 @@
+.historydiv{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.headings{
+    font-family: 'Times New Roman', Times, serif; 
+    background-color: var(--green-300);
+   
+
+}
+
+.histtab{
+   
+    overflow-x:scroll; 
+}
+
+.historytab thead:hover{
+  background-color: white;
+  color:black; 
+  cursor: pointer;
+}
+
+.historytab td{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.detreptxt{
+    background-color: var(--orange-200);
+}
+.warner{
+    background-color: var(--red-100);
+    font-weight: bold;
+}
+
+
+.colnames{
+    width:500px; 
+    height:500px; 
+    margin:3%; 
+    font-family : 'Times New Roman', Times, serif
+
+    /* border: 2px solid red; */
+   
+}
+
+.colnamhead{
+    border: 2px solid black;
+    /* background-color: gold; */
+    background-color: rgb(244, 255, 163);
+    /* background-color: blueviolet; */
+}
+
+.colnames .colnameitems{
+    overflow: scroll;
+    
+    border:2px solid black;
+    /* background-color: var(--red-200); */
+   
+    width:inherit; 
+    height: inherit;
+    /* border-bottom: 2px solid black; */
+}
+
+.colnames .colnameitem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+    margin: 1%;
+    border: 1px solid #000;
+    box-shadow: rgb(240, 233, 233) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    cursor: pointer; 
+    /* background-color: var(--yellow-400); */
+   background-color: blueviolet;
+   color:black;
+   
+}
+
+.index{
+    text-align: left;
+}
+
+.grider{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 2em;
+    grid-column-gap: 2%; 
+} 
+
+
+.tab{
+    margin:2%; 
+    cursor: pointer;
+    overflow: scroll; 
+   width:70%; 
+   margin-right: 3%;
+   font-family : 'Times New Roman', Times, serif;
+  
+}
+
+.tab table{
+    border:2px solid black; 
+}
+
+.tab td{
+    font-weight: bold;
+    /* background-color: var(--orange-200); */
+}
+
+.tab .firowtab{
+    width:500px;
+    
+    overflow: scroll;
+}
+
+
+
+.nullgraphimg{
+  
+   width: 70%;
+   margin-left: 2%;
+   
+
+}
+
+.font{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.firstnval{
+    width:80%; 
+    overflow: scroll;
+}
+
+.firstnval h3{
+    
+    margin-left:3%;
+    margin-right:10%;  
+}
